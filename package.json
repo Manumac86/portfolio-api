@@ -1,0 +1,31 @@
+{
+  "name": "portfolio-api",
+  "version": "1.0.0",
+  "description": "My personal porfolio API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "env-cmd nodemon --exec babel-node src/index.js"
+  },
+  "keywords": [
+    "portfolio",
+    "api",
+    "backend"
+  ],
+  "author": "@manumac86",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^2.21.0",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "mongoose": "^5.11.17"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.17",
+    "@babel/core": "^7.12.17",
+    "@babel/node": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
+    "dot-env": "^0.0.1",
+    "nodemon": "^2.0.7"
+  }
+}
